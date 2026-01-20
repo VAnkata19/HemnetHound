@@ -1,0 +1,11 @@
+[.venv]
+.venv
+
+[__pycache__]
+*/__pycache__/
+
+[soups]
+soups/*.html
+
+[.csv files]
+*.csv
