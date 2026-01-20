@@ -1,4 +1,4 @@
-# 🏠 Hemnet Web Crawler
+# Hemnet Web Crawler
 
 A Python-based web crawler for collecting property listing data from **Hemnet** (https://www.hemnet.se).
 
@@ -66,6 +66,7 @@ Install project dependencies:
 ```sh
 uv sync
 ```
+
 
 
 
