@@ -36,6 +36,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+---
+
 ## Installation
 clone the repository:
 ```sh
@@ -67,12 +69,23 @@ Install project dependencies:
 uv sync
 ```
 
+--- 
+
+## Usage
+
+Run the crawler with:
+```sh
+python main.py
+```
+The script will:
+   Start crawling Hemnet listing pages
+   Extract relevant property data
+   Save the collected data locally for further analysis
+You can customize crawl targets, filters, and scraping logic directly in the source code.
 
 
-
-
-
-
-
+## Disclaimer
+This project is intended for educational and personal use only.
+Please respect Hemnet’s terms of service and avoid excessive or aggressive crawling.
 
 
