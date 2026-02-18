@@ -1,12 +1,23 @@
 # HemnetHound
 
-A Python web crawler and Streamlit dashboard for collecting and exploring sold property listings from **Hemnet** (https://www.hemnet.se).
+Stop guessing what sold for what. **HemnetHound** scrapes every sold listing you care about straight from [Hemnet](https://www.hemnet.se) and drops it into an interactive dashboard — so you can filter, compare, and download real Swedish property data in minutes, not hours.
 
 ---
 
 ## Short Demo
 
 https://github.com/user-attachments/assets/84769665-9199-4013-a4eb-5be2811f5b81
+
+---
+
+## Overview
+
+HemnetHound is a two-part tool built for anyone who wants a data-driven look at the Swedish real estate market:
+
+1. **Crawler** — uses Selenium to load JavaScript-rendered Hemnet result pages and BeautifulSoup to extract structured listing data (price, size, area, monthly fee, and more).
+2. **Dashboard** — a Streamlit app where you can kick off new scrape runs, explore the collected listings with live filters, and export everything as a CSV — no code required.
+
+Whether you're tracking a neighbourhood, researching before a purchase, or just curious about the market, HemnetHound gives you the raw numbers without the manual copy-pasting.
 
 ---
 
