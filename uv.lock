@@ -152,7 +152,7 @@ wheels = [
 ]
 
 [[package]]
-name = "hemnet-web-crawler"
+name = "hemnethound"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

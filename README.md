@@ -1,8 +1,6 @@
-# Hemnet Web Crawler
+# HemnetHound
 
 A Python-based web crawler for collecting property listing data from **Hemnet** (https://www.hemnet.se).
-
-This project uses **`uv`** as a modern replacement for traditional Python tooling such as `pip` and `venv`.
 
 ---
 
@@ -42,7 +40,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 clone the repository:
 ```sh
 git clone https://github.com/VAnkata19/Hemnet-Web-Crawler.git
-cd Hemnet-Web-Crawler
+cd HemnetHound
 ```
 
 Create a virtual environment using `uv`:
